@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "question": "Flutter'da projeye dâhil edilecek resim vb. dosyaların (varlıkların) yolu hangi yapılandırma dosyasında ve hangi bölüm altında belirtilir?",
+      "difficulty": 1,
+      "choices": [
+        "pubspec.yaml - assets:",
+        "config.yaml - images:",
+        "main.dart - resources:",
+        "pubspec.yaml - files:",
+        "app.json - media:"
+      ]
+    },
+    {
+      "question": "Çok sayıda öğe içeren dinamik listeleri performanslı bir şekilde oluşturmak ve sadece ekranda kaydırıldıkça (göründükçe) belleğe yüklenmesini sağlamak için aşağıdaki widget'lardan hangisi kullanılır?",
+      "difficulty": 2,
+      "choices": [
+        "ListView.builder",
+        "ListView.static",
+        "ListView.dynamic",
+        "ListView.scroll",
+        "GridView.count"
+      ]
+    },
+    {
+      "question": "Ekranlar (sayfalar) arası geçiş işlemlerinde, yeni bir rotaya geçmek (yeni bir sayfa açmak) için kullanılan metod aşağıdakilerden hangisidir?",
+      "difficulty": 1,
+      "choices": [
+        "Navigator.push()",
+        "Navigator.go()",
+        "Navigator.pop()",
+        "Navigator.next()",
+        "Navigator.route()"
+      ]
+    },
+    {
+      "question": "Dart dilinde \"Ternary operatörü\" olarak bilinen tek satırlık if-else kontrol ifadesinin doğru sözdizimi (syntax) aşağıdakilerden hangisidir?",
+      "difficulty": 2,
+      "choices": [
+        "şart ? doğru_durum : yanlış_durum",
+        "şart => doğru_durum : yanlış_durum",
+        "şart : doğru_durum ? yanlış_durum",
+        "şart > doğru_durum < yanlış_durum",
+        "şart == doğru_durum ? yanlış_durum"
+      ]
+    },
+    {
+      "question": "Flutter'da kullanıcıyla etkileşim halinde olan ve sayfa üzerinde verilerin değiştirilip arayüzün yeniden çizilebilmesini sağlayan (durumlu) widget yapısı hangisidir?",
+      "difficulty": 1,
+      "choices": [
+        "StatefulWidget",
+        "StatelessWidget",
+        "DynamicWidget",
+        "Scaffold",
+        "MaterialApp"
+      ]
+    },
+    {
+      "question": "Dart dilindeki Null Safety (Boş Değer Güvenliği) yapısında, bir değişkene o an değer atamadığımızı fakat null (boş) olmayacağını ve ilk fırsatta değer atayacağımızı derleyiciye bildirmek için hangi anahtar kelime kullanılır?",
+      "difficulty": 2,
+      "choices": [
+        "late",
+        "const",
+        "final",
+        "await",
+        "static"
+      ]
+    },
+    {
+      "question": "Dart dilinde tek satırlık (Arrow) fonksiyonlar oluşturulurken, return komutunun görevini de üstlenen ve kodun sonucunu döndüren işaret aşağıdakilerden hangisidir?",
+      "difficulty": 1,
+      "choices": [
+        "=>",
+        "->",
+        "==",
+        "=",
+        ":>"
+      ]
+    },
+    {
+      "question": "Flutter'da ekranın sol tarafından açılabilen, genellikle liste, resim ve navigasyon seçenekleri gibi çeşitli menü bileşenlerini barındıran yapı aşağıdakilerden hangisidir?",
+      "difficulty": 1,
+      "choices": [
+        "Drawer",
+        "AppBar",
+        "FloatingActionButton",
+        "BottomNavigationBar",
+        "Scaffold"
+      ]
+    },
+    {
+      "question": "İnternetten asenkron olarak (örneğin bir API'den) çekilen verilerin durumunu (bekliyor, başarılı, hatalı vb.) kontrol edip, veri geldiğinde ekranda otomatik olarak görüntülenmesini (çizilmesini) sağlayan widget aşağıdakilerden hangisidir?",
+      "difficulty": 3,
+      "choices": [
+        "FutureBuilder",
+        "StateBuilder",
+        "AsyncWidget",
+        "HttpBuilder",
+        "StreamBuilder"
+      ]
+    },
+    {
+      "question": "Nesne Yönelimli Programlamada (OOP), bir alt sınıfın üst sınıfın özelliklerini ve metotlarını kalıtım yoluyla alabilmesi için sınıf tanımlanırken hangi anahtar kelime kullanılır?",
+      "difficulty": 1,
+      "choices": [
+        "extends",
+        "inherits",
+        "includes",
+        "implements",
+        "from"
+      ]
+    }
+  ]
+}
